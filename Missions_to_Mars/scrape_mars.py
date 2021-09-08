@@ -88,7 +88,7 @@ def scrape():
             # Create dictionary for title and url
             hem_dict={
                 'title':title,
-                'image_url':image_src
+                'image_url': mars_url + image_src
             }
             hemisphere_image_urls.append(hem_dict)
         except Exception as e:
